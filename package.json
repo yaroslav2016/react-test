@@ -1,0 +1,19 @@
+{
+  "name": "react-test-project",
+  "version": "1.0.0",
+  "description": "test-project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaroslav2016/react-test.git"
+  },
+  "author": "Yaroslav R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yaroslav2016/react-test/issues"
+  },
+  "homepage": "https://github.com/yaroslav2016/react-test#readme"
+}

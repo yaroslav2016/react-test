@@ -1,17 +1,47 @@
 {
   "name": "react-test-project",
   "version": "1.0.0",
-  "description": "test-project",
-  "main": "index.js",
+  "description": "1. Run `npm i` 2. Run `npm run dev` to start development mode. Project will be available at `localhost:3000` 3. Run `npm run prod` to start production mode 4. Run `npm run lint` to start eslint",
+  "main": "src/index.js",
   "scripts": {
+    "start": "webpack-dev-server --progress --inline --hot",
+    "dev": "SET NODE_ENV=development && npm run start",
+    "prod": "SET NODE_ENV=production && webpack",
+    "lint": "eslint ./src",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vladilen Minin",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-eslint": "^6.1.2",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-runtime": "^6.12.0",
+    "babel-polyfill": "^6.13.0",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "eslint": "^3.3.0",
+    "eslint-plugin-react": "^6.1.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "react-hot-loader": "^1.3.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yaroslav2016/react-test.git"
   },
-  "author": "Yaroslav R",
-  "license": "ISC",
+  "keywords": [
+    "test"
+  ],
   "bugs": {
     "url": "https://github.com/yaroslav2016/react-test/issues"
   },

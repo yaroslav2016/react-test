@@ -3,7 +3,7 @@ bower_components
 
 .idea
 
-public/bundle.js
+
 .babelrc
 .editorconfig
 .eslintignore

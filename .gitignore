@@ -1,7 +1,4 @@
-node_modules
-bower_components
-
+# Created by .ignore support plugin (hsz.mobi)
 .idea
-
-
-
+node_modules
+public/bundle.js

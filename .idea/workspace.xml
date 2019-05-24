@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6dffa3f8-def0-4386-b6d6-113efbf50b44" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/todo/src/components/todo-list-item.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo/src/components/todo-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo/src/components/todo-list.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,10 +18,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/todo/src/components/todo-list.js">
+        <entry file="file://$PROJECT_DIR$/todo/src/components/todo-list-item.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="26" selection-start-column="26" selection-end-column="26" />
+            <state relative-caret-position="44">
+              <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -39,14 +40,16 @@
         <option value="$PROJECT_DIR$/todo/src/index.js" />
         <option value="$PROJECT_DIR$/todo/src/components/app-header.js" />
         <option value="$PROJECT_DIR$/todo/src/components/search-panel.js" />
+        <option value="$PROJECT_DIR$/todo/src/components/todo-list.items.js" />
         <option value="$PROJECT_DIR$/todo/src/components/todo-list.js" />
+        <option value="$PROJECT_DIR$/todo/src/components/todo-list-item.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="843" />
+    <option name="x" value="11" />
+    <option name="y" value="254" />
+    <option name="width" value="932" />
     <option name="height" value="724" />
   </component>
   <component name="ProjectView">
@@ -122,12 +125,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558186039103</updated>
-      <workItem from="1558186048978" duration="19224000" />
+      <workItem from="1558186048978" duration="26841000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19224000" />
+    <option name="totallyTimeSpent" value="26841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -205,6 +208,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/todo/src/components/todo-list.items.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/todo/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -217,8 +227,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/todo/src/components/app-header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        <state relative-caret-position="132">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -231,8 +241,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/todo/src/components/todo-list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        <state relative-caret-position="286">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo/src/components/todo-list-item.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
         </state>
       </provider>
     </entry>

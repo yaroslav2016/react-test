@@ -1,7 +1,16 @@
 import React from "react";
+import "./Todo.css"
 
-const Todo = (props) => {
-return <p>{props.name}</p>
+class Todo extends React.Component {
+    render() {
+        return(
+            <div className="todo">
+                <p>Name: {this.props.name}</p>
+                <button>Delete</button>
+            </div>
+        )
+    }
 }
+
 
 export default Todo;

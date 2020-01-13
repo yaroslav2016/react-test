@@ -1,5 +1,7 @@
 import React from "react";
+
 import Todo from "./Todo/Todo";
+import AddTodo from "./AddTodo/AddTodo";
 
 class App extends React.Component {
     state = {
@@ -18,6 +20,8 @@ class App extends React.Component {
         return (
         <div>
             <h1>Users:</h1>
+
+            <AddTodo />
         
             {this.state.todos.map(todo =>{
                 return (

@@ -1,24 +1,26 @@
 import React, { Component } from 'react';
 import "./AddTodo.css";
-
 export class AddTodo extends Component {
   state = {
-    title: ""
+    title: "",
+    date: ""
   };
 
 onChange = (e) => {
-  this.setState({title: e.target.value});
+  this.setState({ [e.target.name]: e.target.value});
 };
 
 onSubmit = (e) => {
   e.preventDefault();
-  alert(this.state.title);
+  alert(this.state.title + " " + this.state.date);
 };
 
     render() {
         return (
           <form id="add-todo" onSubmit={this.onSubmit}>  
-            <input type="text" value={this.state.title} onChange={this.onChange} />
+            <input type="text" name="title" value={this.state.title} onChange={this.onChange} />
+            <input type="text" name="date" value={this.state.dateyy} onChange={this.onChange} />
+
             <button type="submit">Add User</button>
           </form>
         );

@@ -6,14 +6,14 @@ export class Todos extends Component {
         return (
             <div>
                  <h1>Users:</h1>
-                 
+
                 {this.props.todos ? this.props.todos.map(todo =>{
                 return (
                 <Todo 
+                deleteTodo={this.props.deleteTodo}
                 key={todo.id} 
                 id={todo.id}
                 title={todo.title} 
-                deleteTodo={this.deleteTodo} 
                 />
                 );
                 }) : (

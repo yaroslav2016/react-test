@@ -24,10 +24,8 @@ class App extends React.Component {
 
     render() {
         return (
-        <div>
-            <h1>Users:</h1>
-
-            <Switch>
+        <div className="container">
+           <Switch>
             <Route exact path="/add" component={AddTodo} />
             <Route
             exach

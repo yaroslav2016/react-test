@@ -12,7 +12,7 @@ class App extends React.Component {
      };
  
      deleteTodo = (e, id) => {
-        this.setState({todos: this.state.todos.filter(todo => todo.id !== id) });
+        this.setState( {todos: this.state.todos.filter(todo => todo.id !== id) });
      };
 
      addTodo = todo => {
